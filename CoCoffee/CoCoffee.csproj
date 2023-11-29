@@ -10,9 +10,11 @@
   <ItemGroup>
     <None Remove="AbstractClasses\" />
     <None Remove="ConcreteClasses\" />
+    <None Remove="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AbstractClasses\" />
     <Folder Include="ConcreteClasses\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
 </Project>
