@@ -1,14 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CoCoffee;
 
-void printOut(CondimentWrapper beverage)
-{
-    Console.WriteLine(
-    beverage.getDescription() + " : " + (beverage.Cost())
-    );
-}
-
-
 Beverage beverage1 = new TarRoast();
 Console.WriteLine(beverage1.getDescription() +" : " +beverage1.Cost());
 
@@ -24,4 +16,4 @@ Console.WriteLine(beverage4.getDescription() + " : " + beverage4.Cost());
 //Console.WriteLine(beverage3.getDescription() +" : " + beverage3.Cost());
 
 CondimentWrapper beverage5 = new OatMilk(beverage4);
-printOut(beverage5);
+Helpers.printOut(beverage5);
